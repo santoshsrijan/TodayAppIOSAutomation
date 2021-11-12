@@ -1,0 +1,14 @@
+{
+
+
+  "platform":"ios",
+  "host":"127.0.0.1",
+   "port":"4723",
+   "platformVersion":"14.2",
+   "automationName":"XCUITest",
+   "app":"/Users/santosh.singh/Downloads/cna-development (2).ipa",
+   "iphoneid":"27B2CFDA-4BAD-415D-ABB5-8CD8EE26807C",
+   "waittime":"10",
+   "deviceName":"iPhone 8",
+   "udid": "27B2CFDA-4BAD-415D-ABB5-8CD8EE26807C"
+}

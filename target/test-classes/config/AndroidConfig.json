@@ -1,0 +1,18 @@
+{
+
+
+  "platform":"android",
+  "host":"127.0.0.1",
+   "port":"4723",
+   "platformversion":"11",
+   "automationname":"UiAutomator2",
+   "appactivity":"MainActivity.kt",
+   "package":"com.sg.mc.android.itoday",
+   "samsungudid":"emulator-5554",
+   "waittime":"10",
+   "androiddevice":"samsung",
+    "platformversion1":"10",
+    "pixeludid":"emulator-5554",
+    "app":"/Users/santosh.singh/Downloads/app-qa-debug (1).apk"
+   
+}

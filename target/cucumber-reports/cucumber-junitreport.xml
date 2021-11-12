@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.767555">
+<testcase classname="Today App Home Feature" name="User should see the error message with invalid search data" time="19.767555">
+<system-out><![CDATA[When I am in app splash screen in today app.................................passed
+And I click on search button................................................passed
+And I enter the "xyz" search text...........................................passed
+Then I should see the "xyz" error message...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demo_suite]" guice-stage="DEVELOPMENT">
+  <test name="CNA App demo Test(failed)">
+    <classes>
+      <class name="com.cnaapp.runners.SmokeRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="launchApp"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cnaapp.runners.SmokeRunner -->
+    </classes>
+  </test> <!-- CNA App demo Test(failed) -->
+</suite> <!-- Failed suite [demo_suite] -->

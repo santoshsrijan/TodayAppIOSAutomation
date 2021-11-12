@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demo_suite">
+	
+	<test name="Today App demo Test">
+
+		<classes>
+			<class name="com.todayapp.runners.SmokeRunner">
+			</class>
+		</classes>
+	</test>
+</suite>

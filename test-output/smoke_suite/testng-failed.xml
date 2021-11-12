@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoke_suite]">
+  <test name="Construct App Smoke Test(failed)">
+    <classes>
+      <class name="com.constructapp.base.DriverFactory">
+        <methods>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.constructapp.base.DriverFactory -->
+    </classes>
+  </test> <!-- Construct App Smoke Test(failed) -->
+</suite> <!-- Failed suite [smoke_suite] -->

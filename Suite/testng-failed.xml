@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="platformVersion_" value="14.2"/>
+    <parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
+    <parameter name="UDID_" value="7CAD840E-5F23-45E3-A6C9-4FE97C43121A"/>
+    <parameter name="deviceName_" value="ipad_air"/>
+    <classes>
+      <class name="com.construtcapp.runners.ParallelRunner">
+        <methods>
+          <include name="setup"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.construtcapp.runners.ParallelRunner -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="platformVersion_" value="14.2"/>
+    <parameter name="URL_" value="127.0.0.1:1234/wd/hub"/>
+    <parameter name="UDID_" value="A5C64752-C14E-43EA-963E-CE03F17A3AE7"/>
+    <parameter name="deviceName_" value="ipad_pro"/>
+    <classes>
+      <class name="com.construtcapp.runners.ParallelRunner">
+        <methods>
+          <include name="setup"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.construtcapp.runners.ParallelRunner -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

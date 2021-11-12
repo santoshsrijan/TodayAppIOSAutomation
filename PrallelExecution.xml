@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="prallel_suite">
+	
+	<test name="CNA App demo Test" parallel = "classes" thread-count = "2">
+
+		<classes>
+			<class name="com.cnaapp.runners.SmokeRunner">
+			</class>
+		</classes>
+	</test>
+</suite>
